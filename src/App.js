@@ -33,7 +33,11 @@ function App() {
                   <option value="Tonmoy">Tonmoy</option>
                 </select>
               </div>
-              <div className="buton2">Attend Selected</div>
+              <div className="buton2">
+                <a href="https://github.com/sanketjaswal/saiva_calander">
+                  Attend Selected
+                </a>
+              </div>
             </div>
           </nav>
           <div className="daysHolder">
@@ -82,9 +86,9 @@ function App() {
                   <SingleDay
                     day="4"
                     t1="9:00-10:00a"
-                    t2=""
+                    t2="8:00-9:00"
                     r1="Yoga Guidance"
-                    r2=""
+                    r2="My god"
                   />
                 </td>
               </tr>
