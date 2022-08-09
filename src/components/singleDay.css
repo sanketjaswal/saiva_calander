@@ -1,0 +1,48 @@
+
+.dayOfMonth{
+    /* background-color: #61c935; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end ;
+    justify-content: space-between;
+    z-index: 3;
+    margin: 0%;
+}
+
+.dayOfMonth p{
+    margin: 0px;
+    /* background-color: aquamarine; */
+    width: 95%;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    /* margin-inlcine: 10px ; */
+}
+
+.reminder{
+    /* border: 1px solid black; */
+    margin-block: 2px;
+    width: 98%;
+    height: 38px;
+}
+
+.timeContainer{
+    font-size: 8px;
+    padding-left:5px ;
+    text-align: left;
+}
+
+.reminderText{
+    font-size: 13px;
+    padding-left:5px ;
+    text-align: left;
+    
+}
+
+.remOne{
+    background-color: aquamarine;
+}
+
+.remTwo{
+    background-color: rgb(255, 244, 127);
+}
